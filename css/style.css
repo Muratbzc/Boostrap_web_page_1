@@ -20,6 +20,19 @@
 
 /* <!-- SERVICES--> */
 
+.circle {
+  display: inline-block;
+  background-color: #dc3545;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.circle i {
+  position: relative;
+  top: 30px;
+}
 /* <!-- PORTFOLIO --> */
 
 /* <!-- ABOUT US --> */
