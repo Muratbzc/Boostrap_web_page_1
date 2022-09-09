@@ -4,8 +4,22 @@
 
 /* <!-- NAVBAR --> */
 
+.navbar {
+  padding: 0.4rem 5rem;
+}
+
 /* <!-- BANNER --> */
+.banner {
+  background-image: url(../img/banner.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 53px);
+  padding: 17%;
+  color: purple;
+}
+
 /* <!-- SERVICES--> */
+
 /* <!-- PORTFOLIO --> */
 
 /* <!-- ABOUT US --> */

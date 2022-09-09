@@ -7,6 +7,9 @@
     <title>Harvey Tech</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -15,29 +18,29 @@
     <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
-        <div class="container-fluid ps-5 pe-5">
-            <a class="navbar-brand" href="#">Harvey Tech</a>
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#banner">Harvey Tech</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Services</a>
+                        <a class="nav-link" aria-current="page" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">About us</a>
+                        <a class="nav-link" href="#about-us">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Staff</a>
+                        <a class="nav-link" href="#staff">Staff</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Contact us</a>
+                        <a class="nav-link" href="#contact-us">Contact us</a>
                     </li>
                 </ul>
 
@@ -46,7 +49,44 @@
     </nav>
 
     <!-- BANNER -->
+
+    <section class="container-fluid banner" id="banner">
+        <div class="container text-center">
+            <p class="display-6">The IT Career of Your Dreams Starts Here!</p>
+            <h3 class="display-1">Harvey Tech!</h3>
+        </div>
+
+        <div class="container text-center ">
+            <a href="#services">
+                <button type="button" class="btn btn-danger">Our services</button>
+            </a>
+    </section>
+
     <!-- SERVICES-->
+
+    <section id="section" class="container text-center">
+        <h2 class="display-4">Services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, ea!</p>
+
+        <div class="row">
+            <div class="">
+                <i class="fa-solid fa-code bg-danger rounded-circle text-white p-5 display-4"></i>
+                <h5>Programming</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, assumenda!</p>
+            </div>
+            <div class="">
+                <i class="fa-solid fa-palette bg-danger rounded-circle text-white p-5 display-4"></i>
+                <h5>Design</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, eius.</p>
+            </div>
+            <div class="">
+                <i class="fa-solid fa-network-wired bg-danger rounded-circle text-white p-5 display-4"></i>
+                <h5>Networking</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, omnis.</p>
+            </div>
+        </div>
+
+    </section>
     <!-- PORTFOLIO -->
 
     <!-- ABOUT US -->
