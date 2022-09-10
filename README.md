@@ -2,7 +2,7 @@
 
 
 ## Description
-Our goal in this project is to create a web page using bootstrap 5 at a basic level.
+Our goal in this project is to create a web page using bootstrap at a basic level.
 
 ## Expected Outcome
 
