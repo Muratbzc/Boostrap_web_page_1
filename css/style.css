@@ -37,6 +37,14 @@
 
 /* <!-- ABOUT US --> */
 
+.about-img img {
+  width: 100%;
+}
+
+.about-us p {
+  text-align: justify;
+}
+
 /* <!-- STAFF --> */
 
 /* <!-- LİNKS --> */
