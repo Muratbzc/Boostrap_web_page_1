@@ -54,6 +54,12 @@
 }
 
 /* <!-- LİNKS --> */
+#links {
+  padding: 4rem;
+}
+#links img {
+  width: 8rem;
+}
 
 /* <!-- CONTACT US --> */
 
