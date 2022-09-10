@@ -47,6 +47,12 @@
 
 /* <!-- STAFF --> */
 
+.team {
+  border: none;
+  max-width: 210px;
+  margin: auto;
+}
+
 /* <!-- LİNKS --> */
 
 /* <!-- CONTACT US --> */
