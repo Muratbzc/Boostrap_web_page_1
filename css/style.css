@@ -1,5 +1,4 @@
 /* <!-- NAVBAR --> */
-
 .navbar {
   padding: 0.4rem 5rem;
 }
@@ -15,7 +14,6 @@
 }
 
 /* <!-- SERVICES--> */
-
 .circle {
   display: inline-block;
   background-color: #dc3545;
@@ -24,7 +22,6 @@
   border-radius: 50%;
   margin: 2rem 0;
 }
-
 .circle i {
   position: relative;
   top: 30px;
@@ -32,17 +29,14 @@
 /* <!-- PORTFOLIO --> */
 
 /* <!-- ABOUT US --> */
-
 .about-img img {
   width: 100%;
 }
-
 .about-us p {
   text-align: justify;
 }
 
 /* <!-- STAFF --> */
-
 .team {
   border: none;
   max-width: 210px;
@@ -58,7 +52,6 @@
 }
 
 /* <!-- CONTACT US --> */
-
 .contact-us {
   background-image: url(../img/map.jpeg);
   background-size: cover;
